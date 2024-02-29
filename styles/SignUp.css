@@ -1,0 +1,15 @@
+body {
+    margin: 0;
+}
+
+.backround {
+    display: flex;
+}
+.backround span {
+    color: rgb(6 182 212);
+} 
+
+.backround a {
+    color: rgb(6 182 212);
+}
+
