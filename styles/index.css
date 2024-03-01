@@ -1,4 +1,10 @@
 /* navbar   */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
 body {
   margin: 0;
   padding: 0;
@@ -19,7 +25,9 @@ body {
 .nav-conteiner {
   display: flex;
   padding-left: 100px;
-  
+  padding-bottom: 10px;
+  padding-top: 10px;
+
 } 
 
 nav i {
@@ -47,32 +55,45 @@ nav i {
 
 /* 2 navbar*/
 .nav2-conteiner {
+  display: flex;
   background-color: rgb(22 78 99);
   font-size: 17px;
+  justify-content: space-between;
+  padding: 15px 10px;
 }
 
 .nav2-conteiner ul {
   display: flex;
   list-style-type: none;
-  padding-top: 15px;
+  align-items: center;
 }
 
-a{
+.nav2-conteiner a{
   text-decoration: none;
   color: rgb(236 254 255);
-  padding-left: 50px;
 }
+
 .nav2-conteiner button{
   color: rgb(236 254 255);
   border-color: rgb(236 254 255);
   border-radius: 3px;
-  margin-left: 600px;
-  margin-bottom: 12px;
   background-color: rgb(22 78 99);
   font-size: 15px;
-  padding: 5px 20px;
+  height: 100%;
+  padding: 0 20px;
+  margin-right: 20px;
 }
 
+/* 2 navbar animation */
+.nav2-conteiner ul li {
+  padding: 10px 20px;
+  transition: 300ms;
+}
+
+.nav2-conteiner ul li:hover {
+  background-color: rgb(21 94 117);
+  transform: scale(1.0);
+}
 
 /* блоки айфонов */
 
