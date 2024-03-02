@@ -79,8 +79,9 @@ nav i {
   background-color: rgb(22 78 99);
   font-size: 15px;
   height: 100%;
-  padding: 0 20px;
+  padding: 10px 25px;
   margin-right: 20px;
+  margin-left: 100px;
 }
 
 /* 2 navbar animation */
