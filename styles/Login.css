@@ -1,5 +1,7 @@
 body {
     margin: 0;
+    background-image: url('https://rtlimages.apple.com/cmc/dieter/store/16_9/R085.png?resize=2880:1612&output-format=jpg&output-quality=85&interpolation=progressive-bicubic');
+    width: 100%;
 }
 
 .backround {
