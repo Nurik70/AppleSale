@@ -79,11 +79,15 @@ a {
 
 /* блоки для продажи айфонов */
 
+.popo {
+  display: flex;
+}
 .card {
   width: 190px;
   background: white;
   padding: .4em;
   border-radius: 6px;
+
 }
 
 .card-image {
@@ -136,4 +140,5 @@ a {
 
 .but {
   display: flex;
+  
 }
