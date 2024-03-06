@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.main-nav {
+  background-color: rgb(236 254 255);
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 0 70px;
+}
+
+.pan-logo {
+  font-size: 45px;
+  font-weight: bold;
+  padding-left: 20px;
+  color: rgb(22 78 99);
+}
+
+.nav-conteiner {
+  display: flex;
+  padding-left: 100px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+
+}
+
+nav i {
+  font-size: 35px;
+  color: rgb(22 78 99);
+}
+
+.nav-conteiner h3 {
+  margin: 0;
+  margin-left: 15px;
+  margin-top: 4px;
+  color: rgb(22 78 99);
+}
+
+.nav-conteiner p {
+  margin: 0;
+  margin-top: 4px;
+  margin-left: 15px;
+  color: rgb(22 78 99);
+}
+
+.fa-solid {
+  padding-left: 170px;
+  margin-top: 10px;
+}
+
+/* 2 navbar*/
+.nav2-conteiner {
+  display: flex;
+  background-color: rgb(22 78 99);
+  font-size: 17px;
+  justify-content: space-between;
+  padding: 15px 10px;
+}
+
+.nav2-conteiner ul {
+  display: flex;
+  list-style-type: none;
+  align-items: center;
+}
+
+.nav2-conteiner a {
+  text-decoration: none;
+  color: rgb(236 254 255);
+}
+
+.nav2-conteiner button {
+  color: rgb(236 254 255);
+  border-color: rgb(236 254 255);
+  border-radius: 3px;
+  background-color: rgb(22 78 99);
+  font-size: 15px;
+  height: 100%;
+  padding: 10px 25px;
+  margin-right: 20px;
+  margin-left: 815px;
+}
+
+/* 2 navbar animation */
+.nav2-conteiner ul li {
+  padding: 10px 20px;
+  transition: 300ms;
+}
+
+.nav2-conteiner ul li:hover {
+  background-color: rgb(21 94 117);
+  transform: scale(1.0);
+}
+
+/* локация */
+.map-container {
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 30px;
+}
+
+.map {
+  width: 1500px;
+  height: 700px;
+}
+
+.map-container h1 {
+  color: aliceblue;
+  background-color: rgb(22 78 99);
+  padding: 35px 200px;
+}
