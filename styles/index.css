@@ -11,7 +11,7 @@ body {
 }
 
 .main-nav {
-  background-color: rgb(236 254 255);
+  background-color: rgb(236 253 245);
   font-family: Arial, Helvetica, sans-serif;
   padding: 0 70px;
 }
@@ -20,7 +20,7 @@ body {
   font-size: 45px;
   font-weight: bold;
   padding-left: 20px;
-  color: rgb(22 78 99);
+  color: rgb(2 44 34);
 }
 
 .nav-conteiner {
@@ -40,14 +40,14 @@ nav i {
   margin: 0;
   margin-left: 15px;
   margin-top: 4px;
-  color: rgb(22 78 99);
+  color: rgb(2 44 34);
 }
 
 .nav-conteiner p {
   margin: 0;
   margin-top: 4px;
   margin-left: 15px;
-  color: rgb(22 78 99);
+  color: rgb(2 44 34);
 }
 
 .fa-solid {
@@ -58,7 +58,7 @@ nav i {
 /* 2 navbar*/
 .nav2-conteiner {
   display: flex;
-  background-color: rgb(22 78 99);
+  background-color: rgb(2 44 34);
   font-size: 17px;
   justify-content: space-between;
   padding: 15px 10px;
@@ -80,7 +80,7 @@ nav i {
   color: rgb(236 254 255);
   border-color: rgb(236 254 255);
   border-radius: 3px;
-  background-color: rgb(22 78 99);
+  background-color: rgb(6 78 59);
   font-size: 15px;
   height: 100%;
   padding: 10px 25px;
@@ -95,11 +95,20 @@ nav i {
 }
 
 .nav2-conteiner ul li:hover {
-  background-color: rgb(14 116 144);
+  background-color: rgb(16 185 129);
   transform: scale(1.0);
 }
 
-/* блоки айфонов */
+/* -------------- */
+/* категория товаров */
+
+
+/* ------------------------- */
+/* блоки для продажи айфонов */
+main {
+  display: flex;
+  padding: 0 70px;
+}
 
 .card {
   width: 190px;
@@ -107,6 +116,7 @@ nav i {
   padding: .4em;
   border-radius: 3px;
   margin-top: 20px;
+  margin-left: 65px;
 }
 
 .card-image {
@@ -158,7 +168,89 @@ nav i {
   cursor: pointer;
 }
 
-.but {
-  display: flex;
+
+
+
+/* Mac AirPods */
+
+
+.card-44-image {
+  background-color: white;
+  width: 100%;
+  height: 350px;
+  border-radius: 6px 6px 0 0;
+
+}
+
+.card-44 {
+  width: 400px;
+  background: rgb(245, 245, 245);
+  padding: .4em;
+  border-radius: 3px;
+  margin-top: 20px;
+  margin-left: 65px;
+}
+
+.but-22 {
+  display: grid;
+}
+
+
+/*  */
+.product_menu ul {
   font-family: Arial, Helvetica, sans-serif;
+  list-style: none;
+  width: 300px;
+  background-color: rgb(6 78 59);
+  position: sticky;
+  top: 0px;
+  height: 700px;
+  padding-top: 20px;
+}
+
+.product_menu ul li {
+  padding: 10px;
+  font-size: 20px;
+}
+
+.product_menu ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.product_list {
+  width: 100%;
+}
+
+.products_grid {
+  padding: 20px 0;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.products_grid_macbook {
+  padding: 20px 0;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.product_inner_text {
+  padding: 20px 0;
+  padding-left: 80px;
+  color: aliceblue;
+  background-color: rgb(6 78 59);
+  font-size: 24px;
+}
+
+
+.product_menu ul li {
+  transition: 300ms;
+  margin-right: 150px;
+  margin-left: 30px;
+  margin-top: 10px;
+}
+
+.product_menu ul li:hover {
+  background-color: rgb(16 185 129);
+  transform: scale(1.0);
 }

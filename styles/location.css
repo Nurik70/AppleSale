@@ -1,3 +1,4 @@
+/* navbar   */
 * {
   margin: 0;
   padding: 0;
@@ -10,7 +11,7 @@ body {
 }
 
 .main-nav {
-  background-color: rgb(236 254 255);
+  background-color: rgb(236 253 245);
   font-family: Arial, Helvetica, sans-serif;
   padding: 0 70px;
 }
@@ -19,7 +20,7 @@ body {
   font-size: 45px;
   font-weight: bold;
   padding-left: 20px;
-  color: rgb(22 78 99);
+  color: rgb(2 44 34);
 }
 
 .nav-conteiner {
@@ -39,14 +40,14 @@ nav i {
   margin: 0;
   margin-left: 15px;
   margin-top: 4px;
-  color: rgb(22 78 99);
+  color: rgb(2 44 34);
 }
 
 .nav-conteiner p {
   margin: 0;
   margin-top: 4px;
   margin-left: 15px;
-  color: rgb(22 78 99);
+  color: rgb(2 44 34);
 }
 
 .fa-solid {
@@ -57,10 +58,11 @@ nav i {
 /* 2 navbar*/
 .nav2-conteiner {
   display: flex;
-  background-color: rgb(22 78 99);
+  background-color: rgb(2 44 34);
   font-size: 17px;
   justify-content: space-between;
   padding: 15px 10px;
+
 }
 
 .nav2-conteiner ul {
@@ -78,12 +80,12 @@ nav i {
   color: rgb(236 254 255);
   border-color: rgb(236 254 255);
   border-radius: 3px;
-  background-color: rgb(22 78 99);
+  background-color: rgb(6 78 59);
   font-size: 15px;
   height: 100%;
   padding: 10px 25px;
   margin-right: 20px;
-  margin-left: 815px;
+  margin-left: 100px;
 }
 
 /* 2 navbar animation */
@@ -93,9 +95,10 @@ nav i {
 }
 
 .nav2-conteiner ul li:hover {
-  background-color: rgb(21 94 117);
+  background-color: rgb(16 185 129);
   transform: scale(1.0);
 }
+
 
 /* локация */
 .map-container {
@@ -110,6 +113,6 @@ nav i {
 
 .map-container h1 {
   color: aliceblue;
-  background-color: rgb(22 78 99);
+  background-color: rgb(6 78 59);
   padding: 35px 200px;
 }
