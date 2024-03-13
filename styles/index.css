@@ -10,9 +10,8 @@ body {
   padding: 0;
 }
 
-
 .main-nav {
-  background-color: rgb(236 253 245);
+  background-color: rgb(55, 55, 55);
   font-family: Arial, Helvetica, sans-serif;
   padding: 0 70px;
 }
@@ -21,102 +20,34 @@ body {
   font-size: 45px;
   font-weight: bold;
   padding-left: 20px;
-  color: rgb(2 44 34);
-}
-.nav-conteiner {
-  display: flex;
-  padding-left: 100px;
-  
-} 
-
-nav i {
-  font-size: 35px;
-  color: rgb(22 78 99);
-}
-.nav-conteiner h3 {
-  margin: 0;
-  margin-left: 15px;
-  margin-top: 4px;
-  color: rgb(22 78 99);
+  color: #ffffff;
 }
 
-.nav-conteiner p {
-  margin: 0;
-  margin-top: 4px;
-  margin-left: 15px;
-  color: rgb(22 78 99);
-}
-
-.fa-solid {
-  padding-left: 170px;
-  margin-top: 10px;
-}
-
-/* 2 navbar*/
-.nav2-conteiner {
-  background-color: rgb(22 78 99);
-  font-size: 17px;
-}
-
-.nav2-conteiner ul {
-  display: flex;
-  list-style-type: none;
-  padding-top: 15px;
-}
-
-a{
-  text-decoration: none;
-  color: rgb(236 254 255);
-  padding-left: 50px;
-}
-.nav2-conteiner button{
-  color: rgb(236 254 255);
-  border-color: rgb(236 254 255);
-  border-radius: 3px;
-  margin-left: 600px;
-  margin-bottom: 12px;
-  background-color: rgb(22 78 99);
-  font-size: 15px;
-  padding: 5px 20px;
-}
-
-
-.main-nav {
-  background-color: rgb(236 254 255);
-  font-family: Arial, Helvetica, sans-serif;
-  padding: 0 70px;
-}
-
-.pan-logo {
-  font-size: 45px;
-  font-weight: bold;
-  padding-left: 20px;
-  color: rgb(22 78 99);
-}
 .nav-conteiner {
   display: flex;
   padding-left: 100px;
   padding-bottom: 10px;
   padding-top: 10px;
 
-} 
+}
 
 nav i {
   font-size: 35px;
-  color: rgb(22 78 99);
+  color: #ffffff;
 }
+
 .nav-conteiner h3 {
   margin: 0;
   margin-left: 15px;
   margin-top: 4px;
-  color: rgb(2 44 34);
+  color: #ffffff;
 }
 
 .nav-conteiner p {
   margin: 0;
   margin-top: 4px;
   margin-left: 15px;
-  color: rgb(2 44 34);
+  color: #ffffff;
 }
 
 .fa-solid {
@@ -127,11 +58,10 @@ nav i {
 /* 2 navbar*/
 .nav2-conteiner {
   display: flex;
-  background-color: rgb(2 44 34);
+  background-color: rgb(27, 27, 27);
   font-size: 17px;
   justify-content: space-between;
   padding: 15px 10px;
-  
 }
 
 .nav2-conteiner ul {
@@ -140,22 +70,22 @@ nav i {
   align-items: center;
 }
 
-.nav2-conteiner a{
+.nav2-conteiner a {
   text-decoration: none;
-  color: rgb(236 254 255);
+  color: white;
 }
 
-/* .nav2-conteiner button{
-  color: rgb(236 254 255);
-  border-color: rgb(236 254 255);
+.nav2-conteiner button {
+  color: black;
+  border-color: white;
   border-radius: 3px;
-  background-color: rgb(6 78 59);
-  font-size: 15px;
+  background-color: orange;
+  font-size: 16px;
   height: 100%;
   padding: 10px 25px;
   margin-right: 20px;
-  margin-left: 830px;
-} */
+  margin-left: 800px;
+}
 
 /* 2 navbar animation */
 .nav2-conteiner ul li {
@@ -164,28 +94,18 @@ nav i {
 }
 
 .nav2-conteiner ul li:hover {
-<<<<<<< HEAD
-  background-color: rgb(16 185 129);
+  background-color: orange;
   transform: scale(1.0);
 }
 
-/* -------------- */
-/* категория товаров */
 
+/* ниж блоки */
 
-/* ------------------------- */
-/* блоки для продажи айфонов */
 main {
   display: flex;
   padding: 0 70px;
 }
 
-=======
-  background-color: rgb(21 94 117);
-  transform: scale(1.0);
-}
-/* блоки для продажи айфонов */
->>>>>>> ed4a9892a6cf644a78fd9b99ab67972ef035fe39
 .card {
   width: 190px;
   background: rgb(245, 245, 245);
@@ -221,12 +141,13 @@ main {
 
 .heading {
   font-weight: 600;
-  color: rgb(8 51 68);
+  color: black;
   padding: 7px;
 }
 
 .heading:hover {
   cursor: pointer;
+  color: rgb(2, 2, 161);
 }
 
 .author {
@@ -244,8 +165,65 @@ main {
   cursor: pointer;
 }
 
+/* Mac AirPods */
+.product_menu ul {
+  font-family: Arial, Helvetica, sans-serif;
+  list-style: none;
+  width: 300px;
+  background-color: rgb(55, 55, 55);
+  position: sticky;
+  top: 0px;
+  height: 700px;
+  padding-top: 20px;
+}
+
+.product_menu ul li {
+  padding: 10px;
+  font-size: 20px;
+}
+
+.product_menu ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.product_list {
+  width: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.products_grid {
+  padding: 20px 0;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.products_grid_macbook {
+  padding: 20px 0;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.product_inner_text {
+  padding: 20px 0;
+  padding-left: 80px;
+  color: rgb(55, 55, 55);
+  background-color: orange;
+  font-size: 24px;
+}
 
 
+.product_menu ul li {
+  transition: 300ms;
+  margin-right: 150px;
+  margin-left: 30px;
+  margin-top: 10px;
+}
+
+.product_menu ul li:hover {
+  background-color: orange;
+  transform: scale(1.0);
+}
 
 /* Mac AirPods */
 
@@ -267,346 +245,10 @@ main {
   margin-left: 65px;
 }
 
+.card-44-image:hover {
+  transform: scale(0.98);
+}
+
 .but-22 {
   display: grid;
 }
-
-
-/*  */
-.product_menu ul {
-  font-family: Arial, Helvetica, sans-serif;
-<<<<<<< HEAD
-  list-style: none;
-  width: 300px;
-  background-color: rgb(6 78 59);
-  position: sticky;
-  top: 0px;
-  height: 700px;
-  padding-top: 20px;
-}
-
-.product_menu ul li {
-  padding: 10px;
-  font-size: 20px;
-}
-
-.product_menu ul li a {
-  color: white;
-  text-decoration: none;
-}
-
-.product_list {
-  width: 100%;
-}
-
-.products_grid {
-  padding: 20px 0;
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-}
-
-.products_grid_macbook {
-  padding: 20px 0;
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-}
-
-.product_inner_text {
-  padding: 20px 0;
-  padding-left: 80px;
-  color: aliceblue;
-  background-color: rgb(6 78 59);
-  font-size: 24px;
-}
-
-
-.product_menu ul li {
-  transition: 300ms;
-  margin-right: 150px;
-  margin-left: 30px;
-  margin-top: 10px;
-}
-
-.product_menu ul li:hover {
-  background-color: rgb(16 185 129);
-  transform: scale(1.0);
-}
-=======
-}
-
-.min-main{
-  display: flex;
-  
-  
-}
-.name-new h1{
-  background-color: rgb(22 78 99);
-}
-
-.min-main-2{
-  display: flex;
-}
-
-
- 
-
-
-
-
-
-
-
-
-
-/* блоки айфонов */
-
-/* .card {
-  width: 190px;
-  background: white;
-  padding: .4em;
-  border-radius: 6px;
-  margin-left: 80px;
-}
-
-.card-image {
-  background-color: rgb(236, 236, 236);
-  width: 100%;
-  height: 200px;
-  border-radius: 6px 6px 0 0;
-}
-
-.card-image:hover {
-  transform: scale(0.98);
-}
-
-.category {
-  text-transform: uppercase;
-  font-size: 0.7em;
-  font-weight: 600;
-  color: rgb(63, 121, 230);
-  padding: 10px 7px 0;
-}
-
-.category:hover {
-  cursor: pointer;
-}
-
-.heading {
-  font-weight: 600;
-  color: rgb(88, 87, 87);
-  padding: 7px;
-}
-
-.heading:hover {
-  cursor: pointer;
-}
-
-.author {
-  color: gray;
-  font-weight: 400;
-  font-size: 11px;
-  padding-top: 20px;
-}
-
-.name {
-  font-weight: 600;
-}
-
-.name:hover {
-  cursor: pointer;
-}
-
-.but {
-  display: flex;
-  margin-left: 50px;
-  margin-bottom: 100px;
-
-}
-
-.card {
-  width: 190px;
-  background: white;
-  padding: .4em;
-  border-radius: 6px;
-}
-
-.card-image {
-  background-color: rgb(236, 236, 236);
-  width: 100%;
-  height: 200px;
-  border-radius: 6px 6px 0 0;
-}
-
-.card-image:hover {
-  transform: scale(0.98);
-}
-
-.category {
-  text-transform: uppercase;
-  font-size: 0.7em;
-  font-weight: 600;
-  color: rgb(63, 121, 230);
-  padding: 10px 7px 0;
-}
-
-.category:hover { */
-  /* cursor: pointer;
-} */
-
-.name-new h1{
-  margin-top: 40px;
-}
-
-.heading {
-  font-weight: 600;
-  color: rgb(88, 87, 87);
-  padding: 7px;
-}
-
-.heading:hover {
-  cursor: pointer;
-}
-
-.author {
-  color: gray;
-  font-weight: 400;
-  font-size: 11px;
-  padding-top: 20px;
-}
-
-.name {
-  font-weight: 600;
-}
-
-.name:hover {
-  cursor: pointer;
-}
-
-.but {
-  display: flex;
-  flex-direction: column;
-  align-items: 
-}
-
-
-.name-new h1{
-  color: aliceblue;
-  background-color: rgb(22 78 99);
-  height: 100px;
-  padding-left: 80px;
-  padding-top: 30px;
-}
-
-
-
-.mac{
-  display: flex;
-  padding-top: 39px;
-}
-
-
-.Air h2{
-  color: aliceblue;
-  background-color: rgb(22 78 99); 
-  height: 100px;
-  padding-left: 80px;
-  padding-top: 30px;
-  margin-top: 40px;
-}
-
-.mac-conteiner{
-  color: aliceblue;
-  background-color: rgb(22 78 99) ;
-  height: 100px;
-  padding-left: 100px;
-  padding-top: 30px;
-  margin-top: 40px;
-  font-size: 26px;
-}
-
-.card {
-  width: 190px;
-  background: rgb(245, 245, 245);
-  padding: .4em;
-  border-radius: 3px;
-  margin-top: 20px;
-  margin-left: 65px;
-}
-
-.card-image {
-  background-color: white;
-  width: 100%;
-  height: 200px;
-  border-radius: 6px 6px 0 0;
-}
-
-.card-image:hover {
-  transform: scale(0.98);
-}
-
-.category {
-  text-transform: uppercase;
-  font-size: 0.7em;
-  font-weight: 600;
-  color: rgb(8 51 68);
-  padding: 10px 7px 0;
-
-}
-
-.category:hover {
-  cursor: pointer;
-}
-
-.heading {
-  font-weight: 600;
-  color: rgb(8 51 68);
-  padding: 7px;
-}
-
-.heading:hover {
-  cursor: pointer;
-}
-
-.author {
-  color: gray;
-  font-weight: 400;
-  font-size: 11px;
-  padding-top: 20px;
-}
-
-.name {
-  font-weight: 600;
-}
-
-.name:hover {
-  cursor: pointer;
-}
-
-.but-2 {
-  display: flex;
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-
-.card-44-image{
-  background-color: white;
-  width: 100%;
-height: 450px;
-border-radius: 6px 6px 0 0;
-
-}
-
-
-.card-44 {
-  width: 600px;
-  background: rgb(245, 245, 245);
-  padding: .4em;
-  border-radius: 3px;
-  margin-top: 20px;
-  margin-left: 65px;
-}
-.but-22{
-  display:grid;
-}
-
->>>>>>> ed4a9892a6cf644a78fd9b99ab67972ef035fe39

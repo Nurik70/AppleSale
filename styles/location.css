@@ -11,7 +11,7 @@ body {
 }
 
 .main-nav {
-  background-color: rgb(236 253 245);
+  background-color: rgb(55, 55, 55);
   font-family: Arial, Helvetica, sans-serif;
   padding: 0 70px;
 }
@@ -20,7 +20,7 @@ body {
   font-size: 45px;
   font-weight: bold;
   padding-left: 20px;
-  color: rgb(2 44 34);
+  color: #ffffff;
 }
 
 .nav-conteiner {
@@ -33,21 +33,21 @@ body {
 
 nav i {
   font-size: 35px;
-  color: rgb(22 78 99);
+  color: #ffffff;
 }
 
 .nav-conteiner h3 {
   margin: 0;
   margin-left: 15px;
   margin-top: 4px;
-  color: rgb(2 44 34);
+  color: #ffffff;
 }
 
 .nav-conteiner p {
   margin: 0;
   margin-top: 4px;
   margin-left: 15px;
-  color: rgb(2 44 34);
+  color: #ffffff;
 }
 
 .fa-solid {
@@ -58,11 +58,10 @@ nav i {
 /* 2 navbar*/
 .nav2-conteiner {
   display: flex;
-  background-color: rgb(2 44 34);
+  background-color: rgb(27, 27, 27);
   font-size: 17px;
   justify-content: space-between;
   padding: 15px 10px;
-
 }
 
 .nav2-conteiner ul {
@@ -73,19 +72,19 @@ nav i {
 
 .nav2-conteiner a {
   text-decoration: none;
-  color: rgb(236 254 255);
+  color: white;
 }
 
 .nav2-conteiner button {
-  color: rgb(236 254 255);
-  border-color: rgb(236 254 255);
+  color: black;
+  border-color: white;
   border-radius: 3px;
-  background-color: rgb(6 78 59);
-  font-size: 15px;
+  background-color: orange;
+  font-size: 16px;
   height: 100%;
   padding: 10px 25px;
   margin-right: 20px;
-  margin-left: 100px;
+  margin-left: 800px;
 }
 
 /* 2 navbar animation */
@@ -95,7 +94,7 @@ nav i {
 }
 
 .nav2-conteiner ul li:hover {
-  background-color: rgb(16 185 129);
+  background-color: orange;
   transform: scale(1.0);
 }
 
@@ -113,6 +112,6 @@ nav i {
 
 .map-container h1 {
   color: aliceblue;
-  background-color: rgb(6 78 59);
+  background-color: rgb(55 55 55);
   padding: 35px 200px;
 }

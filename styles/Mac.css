@@ -11,7 +11,7 @@ body {
 }
 
 .main-nav {
-  background-color: rgb(236 253 245);
+  background-color: rgb(55, 55, 55);
   font-family: Arial, Helvetica, sans-serif;
   padding: 0 70px;
 }
@@ -20,7 +20,7 @@ body {
   font-size: 45px;
   font-weight: bold;
   padding-left: 20px;
-  color: rgb(2 44 34);
+  color: #ffffff;
 }
 
 .nav-conteiner {
@@ -33,21 +33,21 @@ body {
 
 nav i {
   font-size: 35px;
-  color: rgb(22 78 99);
+  color: #ffffff;
 }
 
 .nav-conteiner h3 {
   margin: 0;
   margin-left: 15px;
   margin-top: 4px;
-  color: rgb(2 44 34);
+  color: #ffffff;
 }
 
 .nav-conteiner p {
   margin: 0;
   margin-top: 4px;
   margin-left: 15px;
-  color: rgb(2 44 34);
+  color: #ffffff;
 }
 
 .fa-solid {
@@ -58,11 +58,10 @@ nav i {
 /* 2 navbar*/
 .nav2-conteiner {
   display: flex;
-  background-color: rgb(2 44 34);
+  background-color: rgb(27, 27, 27);
   font-size: 17px;
   justify-content: space-between;
   padding: 15px 10px;
-
 }
 
 .nav2-conteiner ul {
@@ -73,15 +72,15 @@ nav i {
 
 .nav2-conteiner a {
   text-decoration: none;
-  color: rgb(236 254 255);
+  color: white;
 }
 
 .nav2-conteiner button {
-  color: rgb(236 254 255);
-  border-color: rgb(236 254 255);
+  color: black;
+  border-color: white;
   border-radius: 3px;
-  background-color: rgb(6 78 59);
-  font-size: 15px;
+  background-color: orange;
+  font-size: 16px;
   height: 100%;
   padding: 10px 25px;
   margin-right: 20px;
@@ -95,12 +94,12 @@ nav i {
 }
 
 .nav2-conteiner ul li:hover {
-  background-color: rgb(16 185 129);
+  background-color: orange;
   transform: scale(1.0);
 }
 
 
-/* Mac */
+/* ниж блоки */
 
 main {
   display: flex;
@@ -148,6 +147,7 @@ main {
 
 .heading:hover {
   cursor: pointer;
+  color: rgb(2, 2, 161);
 }
 
 .author {
@@ -166,7 +166,70 @@ main {
 }
 
 /* Mac AirPods */
+.product_menu ul {
+  font-family: Arial, Helvetica, sans-serif;
+  list-style: none;
+  width: 300px;
+  background-color: rgb(55, 55, 55);
+  position: sticky;
+  top: 0px;
+  height: 700px;
+  padding-top: 20px;
+}
 
+.product_menu ul li {
+  padding: 10px;
+  font-size: 20px;
+}
+
+.product_menu ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.product_list {
+  width: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.products_grid {
+  padding: 20px 0;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.products_grid_macbook {
+  padding: 20px 0;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.product_inner_text {
+  padding: 20px 0;
+  padding-left: 80px;
+  color: rgb(55, 55, 55);
+  background-color: orange;
+  font-size: 24px;
+}
+
+
+.product_menu ul li {
+  transition: 300ms;
+  margin-right: 150px;
+  margin-left: 30px;
+  margin-top: 10px;
+}
+
+.product_menu ul li:hover {
+  background-color: orange;
+  transform: scale(1.0);
+}
+
+/* Mac AirPods */
+
+.but-22 {
+  display: grid;
+}
 
 .card-44-image {
   background-color: white;
@@ -185,61 +248,6 @@ main {
   margin-left: 65px;
 }
 
-.but-22 {
-  display: grid;
+.card-44-image:hover {
+  transform: scale(0.98);
 }
-
-
-/*  */
-.product_menu ul {
-  font-family: Arial, Helvetica, sans-serif;
-  list-style: none;
-  width: 300px;
-  background-color: rgb(6 78 59);
-  position: sticky;
-  top: 0px;
-  height: 700px;
-  padding-top: 20px;
-}
-
-.product_menu ul li {
-  padding: 10px;
-  font-size: 20px;
-}
-
-.product_menu ul li a {
-  color: white;
-  text-decoration: none;
-}
-
-.product_menu ul li {
-  transition: 300ms;
-  margin-right: 150px;
-  margin-left: 30px;
-  margin-top: 10px;
-}
-
-.product_menu ul li:hover {
-  background-color: rgb(16 185 129);
-  transform: scale(1.0);
-}
-
-/* Mac */
-.product_list {
-  width: 100%;
-}
-
-.products_grid_macbook {
-  padding: 20px 0;
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-}
-
-.product_inner_text {
-  padding: 20px 0;
-  padding-left: 80px;
-  color: aliceblue;
-  background-color: rgb(6 78 59);
-  font-size: 24px;
-}
-
