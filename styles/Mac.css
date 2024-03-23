@@ -106,33 +106,12 @@ main {
   padding: 0 70px;
 }
 
-.card {
-  width: 190px;
-  background: rgb(245, 245, 245);
-  padding: .4em;
-  border-radius: 3px;
-  margin-top: 20px;
-  margin-left: 65px;
-}
-
-.card-image {
-  background-color: white;
-  width: 100%;
-  height: 200px;
-  border-radius: 6px 6px 0 0;
-}
-
-.card-image:hover {
-  transform: scale(0.98);
-}
-
 .category {
   text-transform: uppercase;
   font-size: 0.7em;
   font-weight: 600;
   color: rgb(8 51 68);
   padding: 10px 7px 0;
-
 }
 
 .category:hover {
@@ -141,7 +120,7 @@ main {
 
 .heading {
   font-weight: 600;
-  color: rgb(8 51 68);
+  color: black;
   padding: 7px;
 }
 
@@ -192,6 +171,14 @@ main {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+.product_inner_text {
+  padding: 20px 0;
+  padding-left: 80px;
+  color: rgb(55, 55, 55);
+  background-color: orange;
+  font-size: 24px;
+}
+
 .products_grid {
   padding: 20px 0;
   display: grid;
@@ -203,15 +190,6 @@ main {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
 }
-
-.product_inner_text {
-  padding: 20px 0;
-  padding-left: 80px;
-  color: rgb(55, 55, 55);
-  background-color: orange;
-  font-size: 24px;
-}
-
 
 .product_menu ul li {
   transition: 300ms;
@@ -227,9 +205,6 @@ main {
 
 /* Mac AirPods */
 
-.but-22 {
-  display: grid;
-}
 
 .card-44-image {
   background-color: white;
@@ -251,3 +226,9 @@ main {
 .card-44-image:hover {
   transform: scale(0.98);
 }
+
+.but-22 {
+  display: grid;
+}
+
+/* footer */

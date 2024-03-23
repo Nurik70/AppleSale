@@ -1,0 +1,496 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(233, 232, 232);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main-nav {
+    background-color: rgb(55, 55, 55);
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0 70px;
+}
+
+.pan-logo {
+    font-size: 45px;
+    font-weight: bold;
+    padding-left: 20px;
+    color: #ffffff;
+}
+
+.nav-conteiner {
+    display: flex;
+    padding-left: 100px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+
+}
+
+nav i {
+    font-size: 35px;
+    color: #ffffff;
+}
+
+.nav-conteiner h3 {
+    margin: 0;
+    margin-left: 15px;
+    margin-top: 4px;
+    color: #ffffff;
+}
+
+.nav-conteiner p {
+    margin: 0;
+    margin-top: 4px;
+    margin-left: 15px;
+    color: #ffffff;
+}
+
+.fa-solid {
+    padding-left: 170px;
+    margin-top: 10px;
+}
+
+/* 2 navbar*/
+.nav2-conteiner {
+    display: flex;
+    background-color: rgb(27, 27, 27);
+    font-size: 17px;
+    justify-content: space-between;
+    padding: 15px 10px;
+}
+
+.nav2-conteiner ul {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+}
+
+.nav2-conteiner a {
+    text-decoration: none;
+    color: white;
+}
+
+.nav2-conteiner button {
+    color: black;
+    border-color: white;
+    border-radius: 3px;
+    background-color: orange;
+    font-size: 16px;
+    height: 100%;
+    padding: 10px 25px;
+    margin-right: 20px;
+    margin-left: 800px;
+}
+
+/* 2 navbar animation */
+.nav2-conteiner ul li {
+    padding: 10px 20px;
+    transition: 300ms;
+}
+
+.nav2-conteiner ul li:hover {
+    background-color: orange;
+    transform: scale(1.0);
+}
+
+
+/* продукт описание */
+.name-product {
+    background-color: orange;
+    padding: 35px 50px 80px 100px;
+    font-size: 25px;
+    position: relative;
+    z-index: 0;
+    /* height: 9px; */
+    position: relative;
+    z-index: 1;
+    /* margin-top: 20px; */
+}
+
+.main-content-product {
+    background-color: white;
+    margin-left: 140px;
+    margin-right: 200px;
+    position: relative;
+    bottom: 45px;
+    z-index: 1;
+
+}
+
+.mini-img15 div {
+    transition: 300ms;
+}
+
+.mini-img15 div:hover {
+    transform: scale(1.1);
+}
+
+
+
+.img-content-product {
+    padding-left: 60px;
+}
+
+.mini-img15 {
+    margin: 80px 0 0 100px;
+}
+
+.mini-img15 img {
+    width: 110px;
+    background-color: white;
+    border: solid 1px grey
+}
+
+.right-block-content {
+    border: 1px solid grey;
+    margin-top: 30px;
+    margin-left: 40px;
+    padding-top: 100px;
+    margin-bottom: 82px;
+}
+
+.right-block-content h1 {
+    font-size: 50px;
+    padding-left: 50px;
+    padding-right: 70px;
+    padding-bottom: 30px;
+}
+
+.c-2-block-content {
+    display: flex;
+    font-size: 13px;
+    margin-left: 30px;
+}
+
+
+.right-block-content2 {
+    border: 1px solid grey;
+}
+
+.mini-content-product {
+    display: flex;
+}
+
+.mini-right-block-content {
+    margin-bottom: 20px;
+}
+
+.mini-right-block-content h3 {
+    padding: 3px 0;
+    margin-left: 10px;
+}
+
+.mini-right-block-content p {
+    /* padding: 3px 0; */
+    margin-left: 12px;
+    color: grey;
+
+}
+
+.mini-right-block-content2 {
+    margin-bottom: 40px;
+}
+
+.mini-right-block-content2 h3 {
+    padding: 3px 0;
+    margin-left: 10px;
+    color: orange;
+}
+
+.mini-right-block-content2 p {
+    /* padding: 3px 0; */
+    margin-left: 12px;
+    color: grey;
+}
+
+.right-block-content2 span {
+    font-size: 20px;
+    color: black;
+}
+
+.right-block-content2 p {
+    color: rgb(65, 65, 65);
+}
+
+.parag-right {
+    padding-bottom: 5px;
+    margin-left: 40px;
+}
+
+.parag-right2 {
+    padding-bottom: 5px;
+    margin-left: 40px;
+    margin-bottom: 30px;
+}
+
+.button-block a {
+    border: 1px solid orange;
+    padding: 15px 120px 15px 40px;
+    background-color: orange;
+    text-decoration: none;
+    font-size: 21px;
+    color: white;
+}
+
+/* блоки айфонов */
+.card {
+    width: 190px;
+    background: rgb(245, 245, 245);
+    padding: .4em;
+    border-radius: 3px;
+    margin-top: 20px;
+    margin-left: 65px;
+}
+
+.card-image {
+    background-color: white;
+    width: 100%;
+    height: 200px;
+    border-radius: 6px 6px 0 0;
+}
+
+.card-image:hover {
+    transform: scale(0.98);
+}
+
+.category {
+    text-transform: uppercase;
+    font-size: 0.7em;
+    font-weight: 600;
+    color: rgb(8 51 68);
+    padding: 10px 7px 0;
+
+}
+
+.category:hover {
+    cursor: pointer;
+}
+
+.heading-a-link {
+    text-decoration: none;
+}
+
+.heading {
+    font-weight: 600;
+    color: black;
+    padding: 7px;
+}
+
+.heading a:hover {
+    cursor: pointer;
+    color: rgb(2, 2, 161);
+}
+
+.author {
+    color: gray;
+    font-weight: 400;
+    font-size: 11px;
+    padding-top: 20px;
+}
+
+.name {
+    font-weight: 600;
+}
+
+.name:hover {
+    cursor: pointer;
+}
+
+/* описание */
+.description-product {
+    display: flex;
+}
+
+.description-product h2 {
+    color: rgb(48, 48, 48);
+    margin: 40px 80px;
+
+}
+
+.description-product img {
+    width: 500px;
+    height: 500px;
+    margin-right: 100px;
+}
+
+.main-ul-li {
+    background-color: white;
+    margin-left: 135px;
+    margin-right: 20px;
+}
+
+.opis-ul-li h3 {
+    padding-left: 50px;
+    font-weight: normal;
+    color: orange;
+    font-size: 22px;
+    padding-top: 25px;
+}
+
+.opis-ul-li ul {
+    padding-left: 90px;
+    padding-right: 50px;
+    font-size: 17px;
+}
+
+.opis-ul-li ul li::marker {
+    color: orange;
+    font-size: 35px;
+}
+
+.opis-ul-li ul li {
+    padding-top: 15px;
+}
+
+.nij-ul {
+    padding-bottom: 70px;
+}
+
+/* footer */
+.container {
+    max-width: 1170px;
+    margin: auto;
+}
+
+.row {
+    display: flex;
+    /* flex-wrap: wrap; */
+}
+
+ul {
+    list-style: none;
+}
+
+.footer {
+    background-color: #24262b;
+    padding: 70px 0;
+}
+
+.footer-col {
+    width: 25%;
+    padding: 0 15px;
+}
+
+.footer-col h4 {
+    font-size: 18px;
+    color: #ffffff;
+    text-transform: capitalize;
+    margin-bottom: 35px;
+    font-weight: 500;
+    position: relative;
+}
+
+.footer-col h4::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: #e91e63;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+}
+
+.footer-col ul li:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+.footer-col ul li a {
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 300;
+    color: #bbbbbb;
+    display: block;
+    transition: all 0.3s ease;
+}
+
+.footer-col ul li a:hover {
+    color: #ffffff;
+    padding-left: 8px;
+}
+
+.footer-col .social-links a {
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: rgba(255, 255, 255, 0.2);
+    margin: 0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #ffffff;
+    transition: all 0.5s ease;
+}
+
+.footer-col .social-links a:hover {
+    color: #24262b;
+    background-color: #ffffff;
+}
+
+/*responsive*/
+@media(max-width: 767px) {
+    .footer-col {
+        width: 50%;
+        margin-bottom: 30px;
+    }
+}
+
+@media(max-width: 574px) {
+    .footer-col {
+        width: 100%;
+    }
+}
+
+
+/* card-block */
+
+.container-block {
+    display: flex;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 50px;
+}
+
+.product-block {
+    border: 1px solid rgb(154, 153, 153);
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+
+}
+
+.card-block {
+    padding: 10px 5px 60px 5px;
+}
+
+
+.block-word h1 {
+    font-size: 25px;
+    color: #8b8b8b;
+}
+
+.block-word span {
+    color: #24262b;
+}
+
+.block-word span:hover {
+    color: orange;
+}
+
+.main-h1 {
+    margin-left: 63px;
+    margin-top: 100px;
+    font-size: 38px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.block-img img {
+    margin-bottom: 15px;
+}
