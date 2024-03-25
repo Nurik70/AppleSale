@@ -139,13 +139,14 @@ main {
   cursor: pointer;
 }
 
-.heading {
+.heading a {
   font-weight: 600;
-  color: rgb(8 51 68);
+  color: black;
   padding: 7px;
+  text-decoration: none;
 }
 
-.heading:hover {
+.heading a:hover {
   cursor: pointer;
   color: rgb(2, 2, 161);
 }

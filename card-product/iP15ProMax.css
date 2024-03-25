@@ -218,12 +218,13 @@ nav i {
 .parag-right {
     padding-bottom: 5px;
     margin-left: 40px;
+    padding-top: 10px;
 }
 
 .parag-right2 {
     padding-bottom: 5px;
     margin-left: 40px;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 
 .button-block a {
@@ -330,6 +331,7 @@ nav i {
     padding-top: 25px;
 }
 
+
 .opis-ul-li ul {
     padding-left: 90px;
     padding-right: 50px;
@@ -361,7 +363,7 @@ nav i {
 }
 
 ul {
-    list-style: none;
+    /* list-style: none; */
 }
 
 .footer {

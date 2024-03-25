@@ -116,7 +116,7 @@ main {
   border-radius: 6px 6px 0 0;
 }
 
-.card-image:hover {
+.card-image :hover {
   transform: scale(0.98);
 }
 
@@ -125,7 +125,7 @@ main {
   font-size: 0.7em;
   font-weight: 600;
   color: rgb(8 51 68);
-  padding: 10px 7px 0;
+  padding: 10px 7px 3px;
 
 }
 
