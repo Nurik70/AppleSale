@@ -355,6 +355,7 @@ nav i {
 .container {
     max-width: 1170px;
     margin: auto;
+    text-decoration: none;
 }
 
 .row {
