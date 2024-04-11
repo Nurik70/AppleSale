@@ -14,12 +14,13 @@ body {
     padding: 0 70px;
 }
 
-.pan-logo {
+.pan-logo a {
     font-size: 45px;
     font-weight: bold;
     padding-left: 20px;
     color: #ffffff;
-}
+    text-decoration: none;
+  }
 
 .nav-conteiner {
     display: flex;
