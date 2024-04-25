@@ -79,7 +79,7 @@ nav i {
   height: 100%;
   padding: 10px 25px;
   margin-right: 20px;
-  margin-left: 750px;
+  margin-left: 700px;
 }
 
 /* 2 navbar animation */
@@ -98,7 +98,6 @@ nav i {
 
 main {
   display: flex;
-  padding: 0 70px;
 }
 
 .card {
@@ -160,6 +159,11 @@ main {
 }
 
 /* Mac AirPods */
+
+.product_menu {
+  margin-left: 70px;
+}
+
 .product_menu ul {
   font-family: Arial, Helvetica, sans-serif;
   list-style: none;
@@ -220,8 +224,6 @@ main {
 }
 
 /* Mac AirPods */
-
-
 .card-44-image {
   background-color: white;
   width: 100%;
@@ -397,4 +399,19 @@ ul {
 
 .block-img img {
   margin-bottom: 15px;
+}
+
+/* reebokGreen */
+
+.reebGreen {
+  padding-top: 20px;
+}
+
+.Nike-white {
+  padding-top: 60px;
+}
+
+.JordanLOw {
+  padding-top: 50px;
+
 }
