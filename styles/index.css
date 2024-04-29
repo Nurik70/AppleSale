@@ -112,7 +112,7 @@ main {
 .card-image {
   background-color: white;
   width: 100%;
-  height: 200px;
+  height: 190px;
   border-radius: 6px 6px 0 0;
 }
 
@@ -399,19 +399,4 @@ ul {
 
 .block-img img {
   margin-bottom: 15px;
-}
-
-/* reebokGreen */
-
-.reebGreen {
-  padding-top: 20px;
-}
-
-.Nike-white {
-  padding-top: 60px;
-}
-
-.JordanLOw {
-  padding-top: 50px;
-
 }
