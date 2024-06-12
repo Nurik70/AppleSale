@@ -102,7 +102,7 @@ main {
 
 .card {
   width: 190px;
-  background: rgb(245, 245, 245);
+  /* background: rgb(245, 245, 245); */
   padding: .4em;
   border-radius: 3px;
   margin-top: 20px;
@@ -399,4 +399,12 @@ ul {
 
 .block-img img {
   margin-bottom: 15px;
+}
+
+#foto1 {
+  
+}
+
+html{
+  scroll-behavior: smooth;
 }
